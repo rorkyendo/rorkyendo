@@ -1,5 +1,5 @@
 <h2 align="center"> Hi there 👋</h2>
-<p align="center">I live in <b>Indonesia 🇮🇩</b>, I'am an IoT Enthusiast and Love Coding!</p>
+<p align="center">I'am a full stack developer and IoT Enthusiast!</p>
 
 <br />
 
