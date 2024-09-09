@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rorkyendo/static/css/main.7cce5ce8.css",
-    "main.js": "/rorkyendo/static/js/main.ba68c4dd.js",
+    "main.js": "/rorkyendo/static/js/main.64a8c262.js",
     "static/js/453.6a54098e.chunk.js": "/rorkyendo/static/js/453.6a54098e.chunk.js",
     "index.html": "/rorkyendo/index.html",
     "main.7cce5ce8.css.map": "/rorkyendo/static/css/main.7cce5ce8.css.map",
-    "main.ba68c4dd.js.map": "/rorkyendo/static/js/main.ba68c4dd.js.map",
+    "main.64a8c262.js.map": "/rorkyendo/static/js/main.64a8c262.js.map",
     "453.6a54098e.chunk.js.map": "/rorkyendo/static/js/453.6a54098e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cce5ce8.css",
-    "static/js/main.ba68c4dd.js"
+    "static/js/main.64a8c262.js"
   ]
 }
