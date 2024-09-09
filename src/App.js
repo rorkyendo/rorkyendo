@@ -10,9 +10,7 @@ function App() {
     <Router>
       <Layout className="app">
         <CustomHeader />
-        <Routes>
-          <Route path="/" element={<DashboardPage />} /> {/* Default route */}
-        </Routes>
+        <DashboardPage />
       </Layout>
     </Router>
   );

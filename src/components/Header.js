@@ -23,7 +23,7 @@ const CustomHeader = () => {
         </Col>
         <Col flex="auto">
           {/* Menu */}
-          <Menu mode="horizontal" defaultSelectedKeys={['dashboard']} className="menu">
+          <Menu mode="horizontal" defaultSelectedKeys={['/']} className="menu">
             {/* <Menu.Item key="sales">
               <Link to="/sales">Sales</Link>
             </Menu.Item>
