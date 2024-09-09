@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rorkyendo/static/css/main.7cce5ce8.css",
-    "main.js": "/rorkyendo/static/js/main.d20399fd.js",
-    "static/js/453.6a54098e.chunk.js": "/rorkyendo/static/js/453.6a54098e.chunk.js",
-    "index.html": "/rorkyendo/index.html",
-    "main.7cce5ce8.css.map": "/rorkyendo/static/css/main.7cce5ce8.css.map",
-    "main.d20399fd.js.map": "/rorkyendo/static/js/main.d20399fd.js.map",
-    "453.6a54098e.chunk.js.map": "/rorkyendo/static/js/453.6a54098e.chunk.js.map"
+    "main.css": "./static/css/main.7cce5ce8.css",
+    "main.js": "./static/js/main.d07e3fbf.js",
+    "static/js/453.6a54098e.chunk.js": "./static/js/453.6a54098e.chunk.js",
+    "index.html": "./index.html",
+    "main.7cce5ce8.css.map": "./static/css/main.7cce5ce8.css.map",
+    "main.d07e3fbf.js.map": "./static/js/main.d07e3fbf.js.map",
+    "453.6a54098e.chunk.js.map": "./static/js/453.6a54098e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cce5ce8.css",
-    "static/js/main.d20399fd.js"
+    "static/js/main.d07e3fbf.js"
   ]
 }
