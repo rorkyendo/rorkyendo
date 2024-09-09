@@ -19,13 +19,13 @@ const ProfileInfo = () => {
       <h2 style={{textAlign:'center'}}>Profile Information</h2>
       <Row justify="center" align="middle" style={{marginTop:-15}}>
         <Col>
-          <a href="">
+          <a href="http://linkedin.com/in/taufiqrorkyendo" target='_blank'>
             <LinkedinOutlined  className="logo-icon"/>
           </a>
-          <a href="" style={{marginLeft:5}}>
+          <a href="https://github.com/rorkyendo/" target='_blank' style={{marginLeft:5}}>
             <GithubOutlined  className="logo-icon"/>
           </a>
-          <a href="" style={{marginLeft:5}}>
+          <a href="https://www.instagram.com/taufiqrorkyendo/" target='_blank' style={{marginLeft:5}}>
             <InstagramOutlined  className="logo-icon"/>
           </a>
         </Col>
