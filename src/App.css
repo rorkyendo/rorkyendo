@@ -1,0 +1,78 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-layout-content {
+  padding: 20px;
+  background: #f0f2f5;
+}
+
+.ant-layout {
+  background: #fff;
+}
+
+/* Header Global Style */
+.header {
+  background: #fff;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff4d4f;
+}
+
+.header .user-info {
+  display: flex;
+  align-items: center;
+}
+
+.header .user-info span {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.header .user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Table and Chart Global Style */
+.chart-container, .products-table, .transaction-table {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    padding: 0 10px;
+  }
+
+  .ant-layout-content {
+    padding: 10px;
+  }
+
+  .chart-container, .products-table, .transaction-table {
+    padding: 15px;
+  }
+}
