@@ -14,7 +14,7 @@ const PortofolioInfo = () => {
               <Timeline>
                 <Timeline.Item>
                   <span><span style={{fontWeight:'bold'}}>PT Bank Syariah Indonesia Tbk</span> (Software Engineer)</span>
-                  <p>Okt 2023 - Okt 2024</p>
+                  <p>Okt 2023 - Present</p>
                   <ul>
                     <li>Web Development BSINET Banking</li>
                     <li>Proof Of Concept Performance Tunning</li>
