@@ -55,7 +55,7 @@ const TechStackInfo = () => {
           <span>Python Framework</span>
         </Col>
         <Col xs={17} md={17}>
-          <span>: Django, Flask, TensorFlow, YoLo</span>
+          <span>: Django, Flask, TensorFlow, YoLo, HuggingFace / OpenAI</span>
         </Col>
       </Row>
     </div>

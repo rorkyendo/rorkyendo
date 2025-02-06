@@ -73,6 +73,26 @@ const ProfileInfo = () => {
           </Col>
       </Row>
       <hr/>
+      <Row gutter={[16, 16]}>
+          <Col xs={8} md={8}>
+            <span>Address</span>
+          </Col>
+          <Col xs={16} md={16}>
+            <span>: DKI Jakarta</span>
+          </Col>
+          <Col xs={8} md={8}>
+            <span>Phone Number</span>
+          </Col>
+          <Col xs={16} md={16}>
+            <span>: +6282276648478</span>
+          </Col>
+          <Col xs={8} md={8}>
+            <span>Email</span>
+          </Col>
+          <Col xs={16} md={16}>
+            <span>: taufiqrorkyendo@gmail.com</span>
+          </Col>
+      </Row>
     </div>
   );
 };
