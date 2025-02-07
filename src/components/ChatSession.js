@@ -25,7 +25,7 @@ const ChatSession = () => {
       setInput('');
 
       try {
-        const response = await axios.post('https://kubiks.lpp.co.id/chatbot', { message: input });
+        const response = await axios.post('http://127.0.0.1:5000/chat', { message: input });
         const botReply = response.data.response;
         setMessages([...newMessages, { text: botReply, sender: 'bot' }]);
       } catch (error) {
@@ -34,6 +34,10 @@ const ChatSession = () => {
     }
   };
 
+  function createMarkup(data) {
+    return {__html: data};
+  }
+
   return (
     <div className="card">
       <h2 style={{ textAlign: 'center' }}>Chat With My Virtual Assistant</h2>
@@ -41,7 +45,9 @@ const ChatSession = () => {
         <div className="chat-box">
           {messages.map((msg, index) => (
             <div key={index} className={`chat-message ${msg.sender}`}>
-              <span className="bubble">{msg.text}</span>
+              {msg.sender === 'bot' ? (
+                <span className="bubble"><div dangerouslySetInnerHTML={createMarkup(msg.text)} /></span>
+              ):(<span className="bubble">{msg.text}</span>)}
             </div>
           ))}
         </div>
