@@ -25,7 +25,7 @@ const ChatSession = () => {
       setInput('');
 
       try {
-        const response = await axios.post('http://127.0.0.1:5000/chat', { message: input });
+        const response = await axios.post('https://kubiks.lpp.co.id/chatbot', { message: input });
         const botReply = response.data.response;
         setMessages([...newMessages, { text: botReply, sender: 'bot' }]);
       } catch (error) {
