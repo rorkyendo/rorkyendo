@@ -7,7 +7,7 @@ const ProfileInfo = () => {
 
   return (
     <div className="card">
-      <Row justify="center" align="middle">
+      <Row justify="center" className='no-print' align="middle">
         <Col>
           <Image
             width={120}
@@ -17,7 +17,7 @@ const ProfileInfo = () => {
         </Col>
       </Row>
       <h2 style={{textAlign:'center'}}>Profile Information</h2>
-      <Row justify="center" align="middle" style={{marginTop:-15}}>
+      <Row justify="center" className='no-print' align="middle" style={{marginTop:-15}}>
         <Col>
           <a href="http://linkedin.com/in/taufiqrorkyendo" target='_blank'>
             <LinkedinOutlined  className="logo-icon"/>

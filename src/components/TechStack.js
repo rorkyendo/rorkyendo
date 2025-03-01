@@ -31,13 +31,13 @@ const TechStackInfo = () => {
           <span>Database Admin</span>
         </Col>
         <Col xs={17} md={17}>
-          <span>: MariaDB (MySQL), Firebase</span>
+          <span>: MariaDB (MySQL), Firebase, Orcale, Postgresql, Redis</span>
         </Col>
         <Col xs={7} md={7}>
           <span>Dev & Integration</span>
         </Col>
         <Col xs={17} md={17}>
-          <span>: Github , Slack , Jenkins, Trello</span>
+          <span>: Github , Slack , Jenkins, Trello, Docker</span>
         </Col>
         <Col xs={7} md={7}>
           <span>PHP Framework</span>

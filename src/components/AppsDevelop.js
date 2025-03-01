@@ -5,7 +5,7 @@ import '../styles/Dashboard.css';
 const AppsDevelop = () => {
 
   return (
-    <div className="card">
+    <div className="card no-print">
       <h2 style={{textAlign:'center'}}>Apps Has Been Developed</h2>
       <hr/>
       <Row gutter={[16, 16]}>

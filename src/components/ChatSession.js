@@ -39,7 +39,7 @@ const ChatSession = () => {
   }
 
   return (
-    <div className="card">
+    <div className="card no-print">
       <h2 style={{ textAlign: 'center' }}>Chat With My Virtual Assistant</h2>
       <div className="chat-container">
         <div className="chat-box">

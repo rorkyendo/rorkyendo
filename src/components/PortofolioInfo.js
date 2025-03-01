@@ -16,9 +16,29 @@ const PortofolioInfo = () => {
                   <span><span style={{fontWeight:'bold'}}>PT Bank Syariah Indonesia Tbk</span> (Software Engineer)</span>
                   <p>Okt 2023 - Present</p>
                   <ul>
-                    <li>Web Development BSINET Banking</li>
-                    <li>Proof Of Concept Performance Tunning</li>
-                    <li>Proof Of Concept NGINX Web Server Deployment</li>
+                    <li>Web Development BSINET Banking (Front End)</li>
+                    <ul>
+                      <li>Bertanggung Jawab terhadap pembuatan aplikasi BSINET Banking dari sisi Front End</li>
+                      <li>Bertanggung Jawab untuk melakukan Performance Tuning Aplikasi</li>
+                      <li>Bertanggung Jawab untuk melakukan fixing issue Functional Test maupun Penetration Test dari sisi Front End</li>
+                    </ul>
+                    <li>Web Development BANK GARANSI (Full Stack)</li>
+                    <ul>
+                      <li>Bertanggung Jawab terhadap pembuatan aplikasi BANK GARANSI secara Full Stack (FE,BE,DB)</li>
+                      <li>Bertanggung Jawab untuk melakukan Performance Tuning Aplikasi</li>
+                      <li>Bertanggung Jawab untuk melakukan fixing issue Functional Test maupun Penetration Test</li>
+                    </ul>
+                    <li>PoC NGINX</li>
+                    <ul>
+                      <li>Bertanggung Jawab dalam instalasi server yang menggunakan NGINX sebagai web server</li>
+                      <li>Melakukan seleksi terhadap vendor yang bertanggung jawab sebagai principle kepada pihak ke 3 dalam sisi teknis</li>
+                    </ul>
+                    <li>Generative AI for Griya Medina</li>
+                    <ul>
+                      <li>Bertanggung Jawab dalam pengembangan Front End</li>
+                      <li>Bertanggung Jawab dalam melakukan proses integrasi ke surrounding untuk data listing griya dengan AWS Lambda dan Python</li>
+                      <li>Bertanggung Jawab dalam proses deployment aplikasi menggunakan docker dan CI/CD AWS</li>
+                    </ul>
                   </ul>
                 </Timeline.Item>
                 <Timeline.Item>

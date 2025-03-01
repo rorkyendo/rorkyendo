@@ -8,7 +8,7 @@ const { Header } = Layout;
 
 const CustomHeader = () => {
   return (
-    <Header className="custom-header">
+    <Header className="custom-header no-print">
       <Row align="middle" className="header-row">
         <Col flex="none" className="user-profile-col">
           {/* User Profile */}
