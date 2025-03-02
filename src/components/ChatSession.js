@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import { Row, Col, Input, Button } from 'antd';
+import React, { useState, useEffect, useRef } from 'react';
+import { Input, Button } from 'antd';
+import { SendOutlined, SmileOutlined } from '@ant-design/icons';
 import axios from 'axios';
 import '../styles/Dashboard.css'; // Pastikan path ini benar
 
 const ChatSession = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
+  const chatBoxRef = useRef(null); // 🔹 Tambahkan useRef untuk elemen chat-box
 
   useEffect(() => {
     const cachedMessages = sessionStorage.getItem('chatMessages');
@@ -16,6 +18,11 @@ const ChatSession = () => {
 
   useEffect(() => {
     sessionStorage.setItem('chatMessages', JSON.stringify(messages));
+
+    // 🔹 Scroll otomatis ke bawah saat pesan baru ditambahkan
+    if (chatBoxRef.current) {
+      chatBoxRef.current.scrollTop = chatBoxRef.current.scrollHeight;
+    }
   }, [messages]);
 
   const handleSendMessage = async () => {
@@ -35,30 +42,33 @@ const ChatSession = () => {
   };
 
   function createMarkup(data) {
-    return {__html: data};
+    return { __html: data };
   }
 
   return (
     <div className="card no-print">
       <h2 style={{ textAlign: 'center' }}>Chat With My Virtual Assistant</h2>
       <div className="chat-container">
-        <div className="chat-box">
+        <div className="chat-box" ref={chatBoxRef}>
           {messages.map((msg, index) => (
             <div key={index} className={`chat-message ${msg.sender}`}>
               {msg.sender === 'bot' ? (
                 <span className="bubble"><div dangerouslySetInnerHTML={createMarkup(msg.text)} /></span>
-              ):(<span className="bubble">{msg.text}</span>)}
+              ) : (
+                <span className="bubble">{msg.text}</span>
+              )}
             </div>
           ))}
         </div>
-        <div className="chat-input">
+        <div className="chat-input-container">
           <Input 
             value={input} 
+            className="chat-input"
             onChange={(e) => setInput(e.target.value)} 
             onPressEnter={handleSendMessage}
             placeholder="Ketik pesan..." 
           />
-          <Button type="primary" onClick={handleSendMessage}>Kirim</Button>
+          <Button type="primary" shape="circle" icon={<SendOutlined />} onClick={handleSendMessage} />
         </div>
       </div>
     </div>

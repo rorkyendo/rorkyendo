@@ -58,3 +58,32 @@
     color: #000;
     border-top-left-radius: 4px;
   }
+
+  .chat-input-container {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 25px;
+    padding: 5px 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+  }
+  
+  .chat-input {
+    flex: 1;
+    border: none !important;
+    outline: none !important;
+    resize: none;
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+
+  .chat-input-container button {
+    margin-left: 10px;
+    background-color: #0084ff;
+    border: none;
+  }
+  
+  .chat-input-container button:hover {
+    background-color: #006edc;
+  }
