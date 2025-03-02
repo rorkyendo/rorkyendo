@@ -2,12 +2,12 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Input, Button } from 'antd';
 import { SendOutlined, SmileOutlined } from '@ant-design/icons';
 import axios from 'axios';
-import '../styles/Dashboard.css'; // Pastikan path ini benar
+import '../styles/Dashboard.css';
 
 const ChatSession = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
-  const chatBoxRef = useRef(null); // 🔹 Tambahkan useRef untuk elemen chat-box
+  const chatBoxRef = useRef(null);
 
   useEffect(() => {
     const cachedMessages = sessionStorage.getItem('chatMessages');
@@ -19,7 +19,6 @@ const ChatSession = () => {
   useEffect(() => {
     sessionStorage.setItem('chatMessages', JSON.stringify(messages));
 
-    // 🔹 Scroll otomatis ke bawah saat pesan baru ditambahkan
     if (chatBoxRef.current) {
       chatBoxRef.current.scrollTop = chatBoxRef.current.scrollHeight;
     }

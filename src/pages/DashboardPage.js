@@ -12,14 +12,14 @@ const DashboardPage = () => (
   <Content style={{ padding: '20px' }}>
     <Row gutter={[16, 16]}>
       <Col xs={24} md={8}>
-        <ProfileInfo />
-        <TechStackInfo />
+        {/* <ProfileInfo />
+        <TechStackInfo /> */}
         <ChatSession />
       </Col>
-      <Col xs={24} md={16}>
+      {/* <Col xs={24} md={16}>
         <PortofolioInfo />
         <AppsDevelop />
-      </Col>
+      </Col> */}
     </Row>
   </Content>
 );
