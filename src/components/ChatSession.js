@@ -7,6 +7,7 @@ import '../styles/Dashboard.css';
 const ChatSession = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
+  const [isTyping, setIsTyping] = useState(false);
   const chatBoxRef = useRef(null);
 
   useEffect(() => {
@@ -29,13 +30,16 @@ const ChatSession = () => {
       const newMessages = [...messages, { text: input, sender: 'user' }];
       setMessages(newMessages);
       setInput('');
+      setIsTyping(true);
 
       try {
         const response = await axios.post('https://kubiks.lpp.co.id/chatbot', { message: input });
         const botReply = response.data.response;
+        setIsTyping(false);
         setMessages([...newMessages, { text: botReply, sender: 'bot' }]);
       } catch (error) {
         console.error('Error fetching response:', error);
+        setIsTyping(false);
       }
     }
   };
@@ -58,6 +62,17 @@ const ChatSession = () => {
               )}
             </div>
           ))}
+          {isTyping && (
+            <div className="chat-message bot">
+              <span className="bubble typing-indicator">
+                <div className="typing-dots">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </span>
+            </div>
+          )}
         </div>
         <div className="chat-input-container">
           <Input 
