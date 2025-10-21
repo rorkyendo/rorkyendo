@@ -87,23 +87,6 @@ const PortofolioInfo = () => {
               </Timeline>
           </Col>
       </Row>
-      {/* <hr/>
-      <h4 style={{textAlign:'left'}}>Web Development : </h4>
-      <hr/>
-      <h4 style={{textAlign:'left'}}>Mobile Development</h4>
-      <Row gutter={[16, 16]}>
-          <Col xs={24} md={24}>
-            <span>Nama Lengkap</span>
-          </Col>
-      </Row>
-      <hr/>
-      <h4 style={{textAlign:'left'}}>Machine Learning Research</h4>
-      <Row gutter={[16, 16]}>
-          <Col xs={24} md={24}>
-            <span>Nama Lengkap</span>
-          </Col>
-      </Row>
-      <hr/> */}
     </div>
   );
 };

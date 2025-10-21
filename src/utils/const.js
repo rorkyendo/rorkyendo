@@ -1,0 +1,1 @@
+export const anaktubelImg = "/portofolio/anaktubel.png";

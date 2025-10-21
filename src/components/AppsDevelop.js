@@ -11,46 +11,69 @@ const AppsDevelop = () => {
       <Row gutter={[16, 16]}>
           <Col xs={24} md={8}>
             <Card 
-              cover={<Image src="https://medandigitalinnovation.com/wp-content/uploads/2023/05/frotect.png"/>}
+              cover={<Image src="https://cvmedandigitalinovasi.com/wp-content/uploads/2025/10/anaktubel.com_.png"/>}
             >
-              <center><span style={{textAlign:'center',fontWeight:'bold'}}>Frotect Telkom</span></center>
+              <center><span style={{textAlign:'center',fontWeight:'bold'}}><a href="https://anaktubel.com/" target='_blank'>ANAKTUBEL - ONLINE COURSE & CBT</a></span></center>
             </Card>
           </Col>
           <Col xs={24} md={8}>
             <Card 
-              cover={<Image src="https://medandigitalinnovation.com/wp-content/uploads/2023/01/PORTOFOLIO-KANAN-400x284.png"/>}
+              cover={<Image src="https://cvmedandigitalinovasi.com/wp-content/uploads/2025/10/injiwarrior.com_.png"/>}
             >
-              <center><span style={{textAlign:'center',fontWeight:'bold'}}>KANAN GROUP</span></center>
+              <center><span style={{textAlign:'center',fontWeight:'bold'}}><a href="https://simpaduta.com/" target='_blank'>INJIWARRIOR - NEWS</a></span></center>
             </Card>
           </Col>
           <Col xs={24} md={8}>
             <Card 
-              cover={<Image src="https://medandigitalinnovation.com/wp-content/uploads/2024/10/Untitled-design-400x284.png"/>}
+              cover={<Image src="https://cvmedandigitalinovasi.com/wp-content/uploads/2025/10/kubiks.png"/>}
             >
-              <center><span style={{textAlign:'center',fontWeight:'bold'}}>SIMPADUTA - POLTEKKES</span></center>
+              <center><span style={{textAlign:'center',fontWeight:'bold'}}><a href="https://kubiks.lpp.co.id/" target='_blank'>KUBIKS LPP AGRO NUSANTARA -  AI/ML & WEBREPORTING</a></span></center>
             </Card>
           </Col>
       </Row>
       <Row gutter={[16, 16]}>
           <Col xs={24} md={8}>
             <Card 
-              cover={<Image src="https://medandigitalinnovation.com/wp-content/uploads/2023/01/PORTOFOLIO-E-INVENTARIS-USU-400x284.png"/>}
+              cover={<Image src="https://cvmedandigitalinovasi.com/wp-content/uploads/2025/10/tokokitaaja.com_.png"/>}
             >
-              <center><span style={{textAlign:'center',fontWeight:'bold'}}>E-Inventaris Fasilkom-TI USU</span></center>
+              <center><span style={{textAlign:'center',fontWeight:'bold'}}><a href="https://tokokitaaja.com/" target='_blank'>TOKO KITA AJA - POS & WEBSHOP</a></span></center>
             </Card>
           </Col>
           <Col xs={24} md={8}>
             <Card 
-              cover={<Image src="https://medandigitalinnovation.com/wp-content/uploads/2023/01/PORTOFOLIO-KUBIKS-400x284.png"/>}
+              cover={<Image src="https://cvmedandigitalinovasi.com/wp-content/uploads/2025/10/simpaduta.png"/>}
             >
-              <center><span style={{textAlign:'center',fontWeight:'bold'}}>KUBIKS LPP AGRO NUSANTARA</span></center>
+              <center><span style={{textAlign:'center',fontWeight:'bold'}}><a href="https://simpaduta.com/" target='_blank'>SIMPADUTA - RESEARCH (POLTEKKES)</a></span></center>
             </Card>
           </Col>
           <Col xs={24} md={8}>
             <Card 
-              cover={<Image src="https://medandigitalinnovation.com/wp-content/uploads/2022/04/anaktubel-400x284.png"/>}
+              cover={<Image src="https://cvmedandigitalinovasi.com/wp-content/uploads/2025/10/koperasiberkatlumbung.com_.png"/>}
             >
-              <center><span style={{textAlign:'center',fontWeight:'bold'}}>COURSE & CBT - ANAKTUBEL</span></center>
+              <center><span style={{textAlign:'center',fontWeight:'bold'}}><a href="https://koperasiberkatlumbung.com/" target='_blank'>KOPERASI BERKAT LUMBUNG - FINANCING KOPERASI</a></span></center>
+            </Card>
+          </Col>
+      </Row>
+      <Row gutter={[16, 16]}>
+          <Col xs={24} md={8}>
+            <Card 
+              cover={<Image src="https://cvmedandigitalinovasi.com/wp-content/uploads/2025/10/cekinfobumil.com_.png"/>}
+            >
+              <center><span style={{textAlign:'center',fontWeight:'bold'}}><a href="https://cekinfobumil.com/" target='_blank'>CEK INFO BUMIL - RESEARCH (POLTEKKES)</a></span></center>
+            </Card>
+          </Col>
+          <Col xs={24} md={8}>
+            <Card 
+              cover={<Image src="https://cvmedandigitalinovasi.com/wp-content/uploads/2025/10/familyhill.png"/>}
+            >
+              <center><span style={{textAlign:'center',fontWeight:'bold'}}><a href="#">FAMILY HILL - POS (LOKET & KANTIN)</a></span></center>
+            </Card>
+          </Col>
+          <Col xs={24} md={8}>
+            <Card 
+              cover={<Image src="https://cvmedandigitalinovasi.com/wp-content/uploads/2025/10/algarage.png"/>}
+            >
+              <center><span style={{textAlign:'center',fontWeight:'bold'}}><a href="#">ALGARAGE - POS (BENGKEL)</a></span></center>
             </Card>
           </Col>
       </Row>
